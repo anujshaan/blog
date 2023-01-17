@@ -11,7 +11,7 @@ type props={
 };
 
 
-export const revalidate = 60; //every 60 seconds page will revalidate
+// export const revalidate = 60; //every 60 seconds page will revalidate
 
 export const generateStaticParams = async() =>{
 
