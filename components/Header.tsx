@@ -15,14 +15,14 @@ const Header = () => {
   return (
     <div className="shadow-lg px-4 sm:px-16 py-4 mb-16">
       <div className="flex justify-between items-center max-w-7xl mx-auto ">
-        <div className="flex items-center space-x-4">
+        <Link href="/" className="flex items-center space-x-4">
           <Image
             className="w-20 h-24 rounded-full"
             src={BlogLogo}
             alt="logo"
           />
           <h2 className="md:block hidden text-3xl font-bold font-logo">Anuj Shaan Blog's</h2>
-        </div>
+        </Link>
         {
           showNav ? (
             <div className="flex items-center space-x-12 text-lg tracking-wider font-extralight text-gray-600">
