@@ -11,9 +11,8 @@ import BlogLogo from '../assets/BlogLogo.jpeg'
 const Header = () => {
   const [showNav, setShowNav] = useState(false)
 
-
   return (
-    <div className="shadow-lg px-4 sm:px-16 py-4 mb-16">
+    <div className="shadow-lg px-4 sm:px-16 py-4 mb-18">
       <div className="flex justify-between items-center max-w-7xl mx-auto ">
         <Link href="/" className="flex items-center space-x-4">
           <Image
