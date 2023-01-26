@@ -20,7 +20,7 @@ const HomePage = async() => {
     return <PreviewSuspense fallback={(
       <div role="status">
         <p className='text-center pt-10 text-lg animate-pulse text-orange-600'>
-          Loading Preview Data...
+          Loading Preview Data.....
         </p>
       </div>
     )}>
