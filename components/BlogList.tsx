@@ -39,7 +39,7 @@ const BlogList = ({ posts }: props) => {
                   </div>
                   <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
                     {
-                      post.categories.map(category=>(
+                      post.categories?.map(category=>(
                         <div className="bg-orange-600 text-center text-white px-4
                           rounded-full py-1 text-sm font-semibold">
                           <p>{category.title}</p>
